@@ -13,8 +13,8 @@ def index():
         db = get_db()
         try:
             if search != None:
-                query = "SELECT * FROM Mahasiswa WHERE name %?%"
-                cursor = db.execute(query, (search))
+                query = "SELECT * FROM Mahasiswa WHERE NamaLengkap like ?"
+                cursor = db.execute(query, ("%" + search + "%",))
             else:
                 query = "SELECT * FROM Mahasiswa"
                 cursor = db.execute(query)
@@ -34,7 +34,7 @@ def index():
             return jsonify(
                 {
                     "status": 500,
-                    "message": "Failed to insert data into the database",
+                    "message": "Failed to search the database",
                     "error": str(e),
                 },
                 500,
