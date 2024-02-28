@@ -21,5 +21,5 @@
 21. b. Representational State Transfer
 22. a. GET
 23. e. Representational State Transfer
-24. 
+24. c. git commit -m langsung membuat commit tanpa membuka editor teks
 25. a. git init
