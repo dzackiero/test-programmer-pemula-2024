@@ -2,14 +2,14 @@
 2. a. *
 3. d. `<main>`
 4. b. background-color
-5. e. `<a>`
-6. a. document.getElementById("example")
+5. (C) e. `<a>`
+6. (B) a. document.getElementById("example")
 7. d. screen.width
 8. d. document.getElementById("myButton").addEventListener('click', myFunction)
 9. a. 200
 10. b. POST
 11. c. Content-Type
-12. d. Integer
+12. (C) d. Integer
 13. b. Binary Search
 14. c. Array
 15. b. Map
